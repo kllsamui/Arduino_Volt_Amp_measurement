@@ -3,8 +3,8 @@ float Av = 0.0;
 float Bv =0.0244;
 //___________________________________________________ measuring board ACS712 HALL
 float Aoff= 512.0;                                    // MOD KLL for HALL
-float Ai = 0.0;
-float Bi = 0.07896;
+float Ai = 0.10;                                      // MOD KLL after 5V/12.8A test
+float Bi = 0.0750;                                    // MOD KLL after 5V/12.8A test
 
 //___________________________________________________ show params at boot
 void print_in_setup(){

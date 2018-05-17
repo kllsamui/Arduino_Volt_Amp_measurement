@@ -1,5 +1,5 @@
 //___________________________________________________ measuring board voltage divider
-float Av = 0.08;                                      // MOD KLL after 0 / 3v3 / 5 / 24 / Volt test
+float Av = 0.075;                                      // MOD KLL after 0 / 3v3 / 5 / 24 / Volt test
 float Bv =0.0244;
 //___________________________________________________ measuring board ACS712 HALL
 float Aoff= 512.0;                                    // MOD KLL for HALL
